@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 100%;
+}
+.special_offer{
+    display: flex;
+    margin: 100px auto;   
+    width: 1140px;
+}
+.block_1, .block_2{
+    width: 555px;
+    height: 296px;
+    padding-left: 35px;
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    color: #F4F9FC;
+    position: relative;
+    
+}
+.block_1{
+    margin-right: 30px;
+
+}
+.sale{
+    margin-top: 75px;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+opacity: 0.6;
+margin-bottom: 5px;
+
+
+}
+.title_1{
+    font-family: 'Hind Siliguri';
+font-style: normal;
+font-weight: 600;
+font-size: 31px;
+line-height: 40px;
+width: 249px;
+height: 81px;
+}
+.title_2{
+    font-family: 'Hind Siliguri';
+font-style: normal;
+font-weight: 600;
+font-size: 31px;
+line-height: 40px;
+width: 258px;
+height: 81px;
+}
+button{
+    font-family: 'Hind Siliguri';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 27px;
+color: #F4F9FC;
+border: none;
+background: none;
+cursor: pointer;
+margin-top: 7px;
+text-transform: uppercase;
+}
+.img_drone{
+    rotate: 28%;
+    position: absolute;
+    left: 250px;
+    top: -10px;
+}
+.img_camera{
+    rotate: 28%;
+    position: absolute;
+    left: 270px;
+    top: 40px;
+}
