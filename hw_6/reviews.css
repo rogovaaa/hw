@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 100%;
+}
+.reviews {
+  height: 630px;
+  width: 1170px;
+  margin: 100px auto;
+}
+.reviews_title {
+  height: 150px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+hr {
+  width: 170px;
+  border: none;
+  border-top: 1px solid #ec7979;
+  margin-left: 43%;
+}
+.reviews_subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+
+  color: #86878b;
+  margin-top: 40px;
+  margin-bottom: 71px;
+}
+.customers {
+  height: 336px;
+  display: flex;
+  justify-content: space-between;
+}
+.user {
+  width: 370px;
+}
+.comment {
+  height: 180px;
+  margin-bottom: 46px;
+  background: #e2e2e2;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  padding: 0 20px;
+}
+.comment_info {
+  display: flex;
+}
+.comment::after {
+  content: "";
+  position: absolute;
+  border: 19px solid transparent;
+  border-left: 20px solid #e2e2e2;
+  transform: rotate(90deg);
+  top: 180px;
+  left: 60px;
+}
+.comment_text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #86878b;
+  line-height: 21px;
+  align-items: center;
+  display: flex;
+}
+
+.name {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  color: #000000;
+  margin-left: 30px;
+}
+.job {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  margin: 0 100px;
+}
