@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+.about {
+  height: 665px;
+  width: 1170px;
+  margin: 100px auto;
+}
+
+.groups {
+  display: flex;
+  margin-top: 71px;
+  justify-content: space-between;
+}
+.title {
+  height: 150px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150px;
+
+  text-align: center;
+  margin: 0px;
+  color: #000000;
+}
+.about hr {
+  width: 170px;
+  border: none;
+  border-top: 1px solid #ec7979;
+  margin-left: 43%;
+}
+.subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+
+  color: #86878b;
+  margin-top: 40px;
+  margin-bottom: 71px;
+}
+.item {
+  height: 383px;
+  width: 370px;
+  text-align: center;
+}
+.item_text1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100px;
+  color: #000000;
+  margin: 0px;
+}
+.item_text2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-top: 8px;
+}
